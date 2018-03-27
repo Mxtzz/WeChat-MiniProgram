@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFA500",
+    "navigationBarTitleText": "快知家",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "Home",
+      "iconPath": "pages/img/home.png",
+      "selectedIconPath": "pages/img/home.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "Index",
+      "iconPath": "pages/img/index.png",
+      "selectedIconPath": "pages/img/index.png"
+    }],
+    "selectedColor": "#FFA500"
+  }
+}
