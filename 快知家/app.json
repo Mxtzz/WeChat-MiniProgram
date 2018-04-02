@@ -1,27 +1,52 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/home/home"
+    "pages/home/home",
+    "pages/square/square",
+    "pages/notice/notice",
+    "pages/message/message",
+    "pages/setting/setting"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#FFA500",
     "navigationBarTitleText": "快知家",
-    "navigationBarTextStyle":"#fff"
+    "navigationBarTextStyle": "#fff"
   },
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/home/home",
-      "text": "Home",
-      "iconPath": "pages/img/home.png",
-      "selectedIconPath": "pages/img/home.png"
-    },{
-      "pagePath": "pages/index/index",
-      "text": "Index",
-      "iconPath": "pages/img/index.png",
-      "selectedIconPath": "pages/img/index.png"
-    }],
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "pages/img/tabs/home1.png",
+        "selectedIconPath": "pages/img/tabs/home2.png"
+      },
+      {
+        "pagePath": "pages/square/square",
+        "text": "广场",
+        "iconPath": "pages/img/tabs/square1.png",
+        "selectedIconPath": "pages/img/tabs/square2.png"
+      },
+      {
+        "pagePath": "pages/notice/notice",
+        "text": "通知",
+        "iconPath": "pages/img/tabs/notice1.png",
+        "selectedIconPath": "pages/img/tabs/notice2.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "pages/img/tabs/message1.png",
+        "selectedIconPath": "pages/img/tabs/message2.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "设置",
+        "iconPath": "pages/img/tabs/setting1.png",
+        "selectedIconPath": "pages/img/tabs/setting2.png"
+      }
+    ],
     "selectedColor": "#FFA500"
   }
 }
