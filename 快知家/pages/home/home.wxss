@@ -1,3 +1,27 @@
 .slide-image{
   width: 100%;
 }
+.section{
+  padding-left: 7px;
+  border-bottom: 1px #ccc solid;
+}
+.flex-wrp {
+  display: flex;
+} 
+.flex-item{
+  text-align: center;
+  border-radius: 50%;
+  width:80px; 
+  height: 80px;
+  color: #fff;
+  font-size: 0.7rem;
+  margin: 5px 5px 5px 5px;
+  background: orange;
+
+}
+.flex-wrp image{
+  width: 40px;
+  height: 40px;
+  display: inherit;
+  margin: 8px auto;
+}

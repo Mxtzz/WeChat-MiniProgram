@@ -1,12 +1,25 @@
 <!-- 图片滚动 -->
 <swiper indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-  <block wx:for="{{imgUrls}}">
+  <block wx:for="{{imgUrls}}"  wx:key="unique">
     <swiper-item>
       <image src="{{item}}" class="slide-image" width="355" height="150"/>
     </swiper-item>
   </block>
 </swiper>
 
-<view>{{msg}}</view>
-<button bindtap='clickMe'>点我</button>
+<!-- 导航列表 -->
+<view class="section">
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view  wx:for="{{appUrls1}}" wx:key="unique" class="flex-item">
+      <image src="{{item.url}}"/>
+      {{item.title}}
+    </view>
+  </view>
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view  wx:for="{{appUrls2}}" wx:key="unique" class="flex-item">
+      <image src="{{item.url}}"/>
+      {{item.title}}
+    </view>
+  </view>
+</view>
